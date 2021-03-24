@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600;700&display=swap');
+:root{
+    --primary: #f6e400;
+}
+
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    transition: all .2s linear;
+}
+body{
+	color: #000;
+}
+a {
+    color: #2b2b2b;
+    
+}
+
+.baloo{
+	font-family: 'Baloo Bhai 2';
+}
+
+/* header-1 start */
+
+.header-1{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+     padding: 2rem 0;
+}
+
+
+.header-1 .logo img {
+    height: 4rem;
+}
+
+header form{
+	display: flex;
+}
+
+header form #search{
+	height: 4rem;
+	width: 40rem;
+	padding: 0 1rem;
+	font-size: 1.7rem;
+	color: #000;
+	border:none;
+
+}
+
+header form label{
+	height: 4rem;
+	width: 5rem;
+	text-align: center;
+	line-height: 4rem !important; 
+	font-size: 1.7rem;
+	background-color: red;
+	color: #000;
+	cursor: pointer;
+}
+
+.input-group {
+    width: 20rem;
+}	
+header-1 i.fas.fa-shopping-cart {
+    margin: 0.5rem;
+}
+
+header-1 .cart{
+    color: #2b2b2b;
+}
+a.cart:hover{
+    color: var(--primary) !important;
+	text-decoration: none;
+
+}
+
+
+.fa-sm {
+    font-size: .80em;
+}
+
+.header-2 nav .social-links a:hover{
+	color: var(--primary) !important;
+
+}
+
+.hero-banner .content .btn-primary:hover{
+    color: #fff;
+    background-color: #ad6b07;
+    border-color: #ad6b07;
+}
+
+
+
+.input-group-text {
+    background-color: var(--primary);
+}
+
+.dashed {
+    width: 100%;
+}
+
+hr.dashed-line{
+	border: 1px dashed var(--primary);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #2b2b2b;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light {
+    padding: 1rem 0;
+}
+nav.navbar.navbar-expand-lg.navbar-light {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.navbar {
+     padding: 0; 
+}
+
+.header-2{
+	/*padding: .5rem;*/
+}
+
+.header-2 .menu li{
+	margin: 1rem;
+}
+
+.header-2 .menu li a{
+	font-weight: 600;
+}
+
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    background-color: var(--primary);
+    border-radius: 2rem;
+}
+
+
+
+.header-2 nav .social-links a{
+	font-size: 1rem;
+	color: #2b2b2b;
+	margin: .5rem;
+
+}
+
+
+/* hero start */
+
+.hero-banner{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 80vh;
+	background: url(../img/herobanner1.png);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.hero-banner .content {
+    position: relative;
+}
+
+.hero-banner .content h1{
+	font-size: 3.5rem;
+	font-weight: 600;
+	text-transform: capitalize;
+	font-family: 'Baloo Bhai 2';
+
+
+}
+
+.hero-banner .content .btn-primary {
+    color: #fff;
+    background-color: #d37f00;
+    border-color: #d37f00;
+	
+}
+
+.h1, h1 {
+    font-size: 2rem;
+}
+
+/* category */
+
+#category h1 p{
+	color: #000;
+}
+
+
+
+section#category {
+}
+
+.cat-box {
+    padding-bottom: 1rem;
+}
+
+section#category .card-img-overlay {
+    position: absolute;
+    top: 93px;
+    right: 0;
+    bottom: 0;
+    left: 15px;
+    padding: 1.25rem;
+    border-radius: calc(.25rem - 1px);
+}
+.carousel-caption {
+    right: 14%;
+    left: 16%;
+}
+#category div.carousel-caption div{
+    position: absolute;
+}
+
+
+
+
+/* inquire  */
+
+.inquire{
+    position: relative;
+}
+
+.image-container{
+    background: url(../img/inquire-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0% 15%;
+    height: 75vh;
+}
+
+.inquire .image-container .box {
+    position: absolute;
+    top: 28%;
+    left: 4%;
+}
+
+.inquire .image-container .box .content {
+    max-width: 31rem;
+    line-height: 2rem;
+}
+
+.inquire .image-container .box .content a.btn.btn-primary {
+    background: #e11880;
+    border: none;
+}
+
+.inquire .image-container .box .content a.btn.btn-primary:hover {
+    background: #e11880c5;
+}
+
+
+/* products */
+
+
+
+.products .active{
+    font-weight: bold;
+}
+
+.products .carousel-caption {
+    right: 14%;
+    left: 16%;
+}
+.products .carousel-caption {
+    padding-bottom: 0;
+}
+
+/* feature */
+
+
+
+
+section.feature a {
+    background: #e11880;
+    border: none;
+    font-family: 'Baloo Bhai 2';
+}
+
+section.feature a:hover {
+    background: #bb156b;
+    
+}
+
+
+section.feature .row .col-md-6 .w-100 {
+    width: 711px !important;
+}
+
+section.feature.mb-5 div .col-md-6 {
+    background: #c3e2ff ;
+}
+
+.blog-title {
+    padding: 0 2rem;
+    background: #c3e2ff;
+    padding-top: 7rem;
+}
+
+section.feature.mb-5 div div.blog-title.col-md-6 div h3 {
+    font-size: 1rem;
+    color: #8e8282;
+}
+
+section.feature.mb-5 div div.blog-title.col-md-6 div h1 {
+    font-family: 'Baloo Bhai 2';
+    font-size: 2.5rem;
+}
+
+
+section.feature.container.mb-5 div.row.mb-5 div.blog-title.col-md-6 .content{
+    padding: 2rem;
+    padding-top: 8rem;
+}
+
+section.feature.mb-5  div.carousel-caption {
+    right: 14%;
+    left: 13%;
+    top: 71%;
+}
+
+section.feature.mb-5  div.carousel-caption h3{
+   font-size: 1rem;
+}
+
+/* footer  */
+
+.footer{
+    padding: 0 15%;
+}
+
+section.footer div div.col-md-6 span a {
+    font-weight: bold;
+}
+
+section.footer div div.col-md-6 .social-links li{
+    margin: .5rem;
+}
+
+section.footer div div.col-md-6 .social-links a{
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.logo-color-f{
+    background-color: #c3e2ff;
+}
+.logo-color-i{
+    background-color: #fff2e5;
+}
+.logo-color-y{
+    background-color: #fcdcdd;
+}
+.logo-color-t{
+    background-color: #cff69d;
+}
+
+
+
+
+
+section.feature.mb-5 div.row.mb-5 div.col-md-6{
+    padding: 0;
+}
+
+
+
+
+
+/*media query*/
+
+@media (max-width: 991px){
+
+    nav.navbar.navbar-expand-lg.navbar-light {
+     flex-direction: row; 
+    }
+
+
+    section.footer div div.col-md-6 span a {
+    font-size: 66%;
+    }
+
+    section.footer div div.col-md-6 .social-links li {
+    margin-bottom: 2rem;
+    }
+}
+
+
+    @media (max-width: 575px){
+        .inquire .image-container .box .content {
+        line-height: 2rem;
+    }
+
+        .input-group {
+        width: 10rem;
+    }
+        section#category h5.card-title{
+        font-size: 4rem;
+        padding-top: 8rem;
+    }
+
+        section#category p.card-text{
+        font-size: 2.1rem;
+    }
+
+}
