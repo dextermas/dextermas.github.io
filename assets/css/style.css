@@ -262,6 +262,10 @@ i.far.fa-envelope {
     border-color: var(--primary);
 }
 
+.contact {
+    background: #e9eef4;
+    padding-block: 2rem;
+}
 .contact .asa {
     padding-bottom: 3rem;
 }
