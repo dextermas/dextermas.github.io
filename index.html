@@ -22,14 +22,15 @@
     <link rel="stylesheet" href="assets/css/aos.css">
 
 
-	<link rel="icon" href="assets/img/favicon.ico">
+	<link rel="icon" href="assets/img/favicon2.ico">
 </head>
 <body>
 <!-- header section start -->
 
 
 <header class="navbar-bg-color">
-        <nav class="navbar navbar-expand-lg navbar-light">
+    <div id="top"></div>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <div class="container">
                 <a href="index.html" class="logo ">
                     <img src="assets/img/logo.png" alt="Logo">
@@ -41,7 +42,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav ml-auto text-right">
                     <li class="nav-item nav-link-color ">
-                      <a class="nav-link " id="active" href="#about">About</a>
+                      <a class="nav-link " id="active" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#experience">Experience</a>
@@ -54,6 +55,9 @@
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                     <li class="nav-item">
+                      <a class="nav-link" href="resume.html">Resume</a>
                     </li>
                   </ul>
                  
@@ -72,7 +76,7 @@
                     <div class="content">
                         <h3>Hello, I'm a</h3>
 
-                        <h1>Junior Front-end <span>Web Developer</span></h1>
+                        <h1>Front-end <span>Web Developer</span></h1>
 
                         
                         <p class="mb-5">Hi, I'm Dexter having a acquaintance/familarity with Wireframing, UI prototyping, UX interaction, And I love doing sort of things in Front-end.</p> 
@@ -83,7 +87,7 @@
                     </div>
                 </div>
                 <div class="col-md-5" data-aos="zoom-in-left">
-                    <img class="img-fluid" src="assets/img/workspace3.png" alt="">
+                    <img class="img-fluid" src="assets/img/workspace3.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -91,57 +95,11 @@
 
 <!-- home section end -->
 
-<!-- about section start -->
-
-<section class="about " id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8">
-                <h2 class="mb-5">About Me</h2>
-                <div class="content ">
-                    <div class="text-justify ">
-                        <p>
-                            I describe myself as passionate about developing a website, In my internship, I gain the opportunity to get hands-on exposure to real-life projects, and I enjoy it. In my free time, I watch some webinars on youtube to learn something new stuff and grow as a developer.
-                        </p>
-                    </div>
-                    <br>
-                        <p>Some stuff I know:</p>
-                    
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6"  >
-                            <ul class=".l-height-2">
-                                <li><span>&nbsp; HTML5</span></li>
-                                <li><span>&nbsp; CSS3</span></li>
-                                <li><span>&nbsp; Bootstrap</span></li>
-                                <li><span>&nbsp; MySQL</span></li>
-                            </ul>
-                        </div>
-                        
-                        <div class="col-md-6 col-sm-6">
-                            <ul>
-                                <li><span>&nbsp; JavaScript</span></li>
-                                <li><span>&nbsp; PHP</span></li>
-                                <li><span>&nbsp; WordPress</span></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4" data-aos="fade-left">
-                <img  class="img-fluid" src="assets/img/dexter-img.png" alt="">
-            </div>
-        </div>
-    </div>
-
-</section>
-
-
-<!-- about section end -->
 
 
 <!-- Experience section start -->
 
-<section class="experience " id="experience">
+<section class="experience mt-5" id="experience">
     <div class="container">
         <h2 class="mb-5">Experience</h2>
 
@@ -149,15 +107,30 @@
             <div class="col-md-2">
                 
               <div class="list-group" id="list-tab" role="tablist">
-                <a class="list-group-item list-group-item-action active" id="list-swd-list" data-toggle="list" href="#list-swd" role="tab" aria-controls="swd">SWD ITS</a>
-
-                <a class="list-group-item list-group-item-action " id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Lorem</a>
+                <a class="list-group-item list-group-item-action active" id="list-ax-list" data-toggle="list" href="#list-ax" role="tab" aria-controls="ax">AffinityX</a>
+                <a class="list-group-item list-group-item-action" id="list-swd-list" data-toggle="list" href="#list-swd" role="tab" aria-controls="swd">SWD ITS</a>
+                <!-- <a class="list-group-item list-group-item-action " id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Lorem</a> -->
                 
               </div>
             </div>
             <div class="col-md-8">
               <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="list-swd" role="tabpanel" aria-labelledby="list-swd-list">
+                <div class="tab-pane fade show active" id="list-ax" role="tabpanel" aria-labelledby="list-ax-list">
+                    <h2>Web Developer <span class="exp-company">@ AffinityX</span></h2>
+
+                    <p class="date">March 2022 - Present</p>
+
+                    <ul>
+                        <li>
+                             Proficient in using WordPress, Elementor, and DIVI Builder to create visually stunning and highly functional websites that are optimized for speed and performance. In addition, I have experience in creating eye-catching HTML email campaigns that engage and captivate audiences.
+                        </li>
+                        <li>
+                            WordPress(DIVI and Elementor), HTML Email Ads, Adobe Photoshop, SEO
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-pane fade show" id="list-swd" role="tabpanel" aria-labelledby="list-swd-list">
                     <h2>Intern WordPress Developer <span class="exp-company">@ SWD Information Technology</span></h2>
 
                     <p class="date">September - November 2019</p>
@@ -205,10 +178,10 @@
     <div class="container">
         <h2 class="mb-5">Some Things I've Built</h2>
 
-        <div class="row">
+        <div class="row mb-5">
             <div class="col-md-6" data-aos="zoom-in-right">
                 <a href="projects/baby-corp/" rel="noopener noreferrer" target="_blank">
-                    <img class="img-fluid" src="assets/img/projects/baby-corp.PNG" alt="Baby Corporation">
+                    <img class="img-fluid" src="assets/img/projects/baby-corp.jpg" alt="Baby Corporation">
                 </a>               
               </div>
               <div class="col-md-6">
@@ -223,7 +196,29 @@
                     </li>
                     
                 </ul>
-                <a class="direct-link" href="projects/baby-corp/"><i class="fas fa-external-link-alt"> &nbsp;View Baby Company</i></a>
+                <a class="direct-link btn btn-outline-primary" href="projects/baby-corp/"><i class="fas fa-external-link-alt"> &nbsp;View Baby Company</i></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6" data-aos="zoom-in-right">
+                <a href="http://dexieciouscreations.ml" rel="noopener noreferrer" target="_blank">
+                    <img class="img-fluid" src="assets/img/projects/dexieciouscreations.jpg" alt="Dexiecious Creations">
+                </a>               
+              </div>
+              <div class="col-md-6">
+                <h2>Dexiecious Creations</h2>
+                <p class="date">April 2021</p>
+                <ul class="mb-5">
+                    <li>
+                        A Cake Shop for you sweets need and we satisfy your cravings.
+                    </li>
+                    <li>
+                        WordPress, Elementor, Woocommerce, Woolentor, YoastSEO, WPForms.
+                    </li>
+                    
+                </ul>
+                <a class="direct-link btn btn-outline-primary" href="http://dexieciouscreations.ml"><i class="fas fa-external-link-alt"> &nbsp;View Dexiecious Creations</i></a>
             </div>
         </div>
             
@@ -234,6 +229,92 @@
 
 <!-- project section end -->
 
+<!-- about section start -->
+
+
+<section class="about " id="">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <h2 class="mb-5">Some stuff I know</h2>
+                <div class="content ">
+                        
+                    
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6"  >
+                            <ul class=".l-height-2">
+                                <li><span>&nbsp; HTML5</span></li>
+                                <li><span>&nbsp; CSS3</span></li>
+                                <li><span>&nbsp; Bootstrap</span></li>
+                                <li><span>&nbsp; MySQL</span></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="col-md-6 col-sm-6">
+                            <ul>
+                                <li><span>&nbsp; JavaScript</span></li>
+                                <li><span>&nbsp; PHP</span></li>
+                                <li><span>&nbsp; WordPress</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-left">
+                <img  class="img-fluid" src="assets/img/dexter-img.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<!-- <section class="about " id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <h2 class="mb-5">About Me</h2>
+                <div class="content ">
+                    <div class="text-justify ">
+                        <p>
+                            I describe myself as passionate about developing a website, In my internship, I gain the opportunity to get hands-on exposure to real-life projects, and I enjoy it. In my free time, I watch some webinars on youtube to learn something new stuff and grow as a developer.
+                        </p>
+                    </div>
+                    <br>
+                        <p>Some stuff I know:</p>
+                    
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6"  >
+                            <ul class=".l-height-2">
+                                <li><span>&nbsp; HTML5</span></li>
+                                <li><span>&nbsp; CSS3</span></li>
+                                <li><span>&nbsp; Bootstrap</span></li>
+                                <li><span>&nbsp; MySQL</span></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="col-md-6 col-sm-6">
+                            <ul>
+                                <li><span>&nbsp; JavaScript</span></li>
+                                <li><span>&nbsp; PHP</span></li>
+                                <li><span>&nbsp; WordPress</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-left">
+                <img  class="img-fluid" src="assets/img/dexter-img.png" alt="">
+            </div>
+        </div>
+    </div>
+
+</section> -->
+
+
+<!-- about section end -->
+
+
 
 <!-- resources section start -->
 
@@ -241,34 +322,57 @@
 	<div class="container">
         <h2>Learning sites I suggest to use</h2>
 		<div class="resources-logo d-flex align-items-center justify-content-center flex-wrap">
-			<div class="logo " data-aos="fade-up"
-     data-aos-duration="3000">
-				<img src="assets/img/resources-logo/free.png" alt="Youtube Logo">
+			<a href="https://freecodecamp.org/">
+                <div class="logo " data-aos="fade-up" data-aos-duration="3000">
+				    <img src="assets/img/resources-logo/free.png" alt="Free">
+			    </div>
+            </a>
+
+
+            <a href="https://www.hackerrank.com/">            
+			<div class="logo " data-aos="fade-up" data-aos-duration="3000">
+				<img src="assets/img/resources-logo/hacker.png" alt="Hacker">
 			</div>
-			<div class="logo " data-aos="fade-up"
-     data-aos-duration="3000">
-				<img src="assets/img/resources-logo/hacker.png" alt="Google Logo">
-			</div>
+            </a>
+
+            <a href="https://udemy.com/">            
 			<div class="logo " data-aos="fade-up"
      data-aos-duration="3000">
 				<img src="assets/img/resources-logo/udemy.png" alt="Udemy Logo">
 			</div>
+            </a>
+
+			<a href="https://developer.mozilla.org/en-US/">            
 			<div class="logo " data-aos="fade-up"
      data-aos-duration="3000">
 				<img src="assets/img/resources-logo/mdn.png" alt="MDN Logo">
 			</div>
+            </a>
+
+			<a href="https://w3schools.com/">            
 			<div class="logo " data-aos="fade-up"
      data-aos-duration="3000">
 				<img src="assets/img/resources-logo/w3schools.png" alt="w3schools Logo">
 			</div>
+            </a>
+
+            
+            	<a href="https://lynda.com/">            
 			<div class="logo " data-aos="fade-up"
      data-aos-duration="3000">
 				<img src="assets/img/resources-logo/lynda.png" alt="Lynda Logo">
 			</div>
+            </a>
+			
+              	<a href="https://edabit.com/">            
 			<div class="logo " data-aos="fade-up"
      data-aos-duration="3000">
-				<img src="assets/img/resources-logo/edabit.png" alt="Edabit Logo">
+				<img src="assets/img/resources-logo/edabit.jpg" alt="Edabit Logo">
 			</div>
+            </a>
+			
+
+			
 		</div>
     </div>
 </section>
@@ -277,43 +381,46 @@
 
 <!-- contact section start -->
 
-<section class="contact pb-5" id="contact">
+<section class="contact" id="contact">
     <div class="container">
         <h2 class="mb-5">Contact Me</h2>
 
         <div class="row">
             <div class="col-md-6 mt-2 mb-5">
 
-                <form>
+                <form action="https://formspree.io/f/mgerwydk" method="POST" id="my-form">
                     <div class="form-row">
-                      <div class="col-md-9 mb-3">
+                      <div class="col-md-12 mb-3">
                         <label for="validationDefault01">Name</label>
-                        <input type="text" class="form-control" id="validationDefault01" value="" required placeholder="Juan Dela Cruz">
+                        <input type="text" name="name" class="form-control" id="validationDefault01"  required placeholder="Juan Dela Cruz">
                       </div>
 
-                      <div class="col-md-9 mb-3">
+                      <div class="col-md-12 mb-3">
                         <label for="validationDefault02">Email</label>
-                        <input type="email" class="form-control" id="validationDefault02" value="" required placeholder="Juandelacruz@gmail.com">
+                        <input type="email" name="_replyto" class="form-control" id="validationDefault02"  required placeholder="Juandelacruz@gmail.com">
                       </div>
                       
-                      <div class="col-md-9 mb-3">
+                      <div class="col-md-12 mb-3">
                         <label for="validationDefault0">Subject</label>
-                        <input type="text" class="form-control" id="validationDefault0" value="" required placeholder="Subject..">
+                        <input type="text" name="subject" class="form-control" id="validationDefault0"  required placeholder="Subject..">
                       </div>
 
-                      <div class="col-md-9 mb-3">
+                      <div class="col-md-12 mb-3">
                         <label for="validationDefault0">Message</label>
-                        <textarea name="text" class="form-control" id=""  rows="4" placeholder="Write message..""></textarea>
+                        <textarea name="message" class="form-control" id=""  rows="4" placeholder="Write message.."></textarea>
                       </div>
                     </div>
-                    <button class="btn btn-outline-primary" type="submit">Send Message</button>
+                    <button class="btn btn-outline-primary" type="submit" value="send">Send Message</button>
+                    <div id="my-form-status" class="col-md-9 mt-3"></div>
+                    
                   </form>
+                  
             </div>
             <div class="col-md-6">
 
                 <ul class="nav asa ">
                     <li class="nav-item " >
-                      <a class="nav-link  " id="active" href="#about">About</a>
+                      <a class="nav-link  " id="active" href="#top">Home</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link " href="#experience">Experience</a>
@@ -333,17 +440,15 @@
 
 
                 <a class="text-dark" href="mailto:dextermas05@gmail.com">
-                    <i class="icon-spacing far fa-envelope "></i>
-                    Gmail - dextermas05@gmail.com</a>
+                    <i class="icon-spacing far fa-envelope "></i>dextermas05@gmail.com</a>
                 <a class="text-dark" href="https://github.com/dextermas" target="_blank">
-                    <i class="icon-spacing fab fa-github"></i>
-                    GitHub - dextermas</a>
+                    <i class="icon-spacing fab fa-github"></i>&nbsp;Dexter Mas</a>
                 <a class="text-dark" href="https://linkedin.com/in/dexter-mas" target="_blank">
-                    <i class="icon-spacing fab fa-linkedin-in"></i>
-                    LinkedIn - dextermas</a>
+                    <i class="icon-spacing fab fa-linkedin-in"></i>&nbsp; Dexter Mas</a>
                 <div class="content mt-5">
                     <a class="text-dark" href="index.html" title="Dexter">&copy; 2021 | Dexter Mas</a>
                 </div>
+                
                 </div>
                 
 
@@ -352,6 +457,8 @@
     </div>
 	
 </section>
+
+<!-- <a href="#top" class="back-to-top"><i class="fas fa-arrow-up"></i></a> -->
 
 
 <!-- contact section end -->
@@ -370,9 +477,34 @@
 
     <!-- custom js  -->
 
-     <script src="assets/js/aos.js"></script>
+    <script src="assets/js/aos.js"></script>
 	<script src="assets/js/main.js"></script>
 
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v10.0'
+          });
+        };
+
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+      </script>
+
+      
+<!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution="page_inbox"
+        page_id="100374158874629">
+      </div>
 
 	
 </body>
