@@ -1,5 +1,30 @@
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="header.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Make a Portfolio">
+	<meta name="keywords" content="HTML, CSS">
+	<meta name="author" content="Dexter Mas">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Dexter Mas | Portfolio</title>
+
+    <!-- fontawesome cdn link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    
+    <!-- bootstrap link -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+   
+    
+    <!-- custom css link -->
+	<link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="assets/css/aos.css">
+
+
+	<link rel="icon" href="assets/img/ico.png">
+</head>
+<body>
 <!-- header section start -->
 
 
@@ -16,8 +41,8 @@
               
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav ml-auto text-right">
-                    <li class="nav-item nav-link-color">
-                      <a class="nav-link" href="index.html">Home</a>
+                    <li class="nav-item nav-link-color ">
+                      <a class="nav-link " id="active" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#experience">Experience</a>
@@ -31,7 +56,7 @@
                     <li class="nav-item">
                       <a class="nav-link" href="#contact">Contact</a>
                     </li>
-                     <!-- <li class="nav-item">
+<!--                      <li class="nav-item">
                       <a class="nav-link" href="resume.html">Resume</a>
                     </li> -->
                   </ul>
@@ -186,7 +211,7 @@
                     </li>
                     
                 </ul>
-                <a class="direct-link btn btn-outline-primary" href="projects/baby-corp/"><i class="fas fa-external-link-alt"></i>&nbsp;View Baby Company</a>
+                <a class="direct-link btn btn-outline-primary" href="projects/baby-corp/"><i class="fas fa-external-link-alt"> &nbsp;View Baby Company</i></a>
             </div>
         </div>
 
@@ -208,7 +233,7 @@
                     </li>
                     
                 </ul>
-                <a class="direct-link btn btn-outline-primary" href="http://dexieciouscreations.ml"><i class="fas fa-external-link-alt"></i>&nbsp;View Dexiecious Creations</a>
+                <a class="direct-link btn btn-outline-primary" href="http://dexieciouscreations.ml"><i class="fas fa-external-link-alt"> &nbsp;View Dexiecious Creations</i></a>
             </div>
         </div>
             
@@ -308,7 +333,7 @@
 
 <!-- resources section start -->
 
-<section class="resources mb-5" id="resources">
+<section class="resources" id="resources">
 	<div class="container">
         <h2>Learning sites I suggest to use</h2>
 		<div class="resources-logo d-flex align-items-center justify-content-center flex-wrap">
@@ -373,10 +398,10 @@
 
 <section class="contact" id="contact">
     <div class="container">
-        <h2 class="mb-5">Contact Me</h2>
+        <h2 class="mb-3">Contact Me</h2>
 
         <div class="row">
-            <div class="col-md-6 mt-2 mb-5">
+            <div class="col-md-6 mt-2">
 
                 <form action="https://formspree.io/f/mgerwydk" method="POST" id="my-form">
                     <div class="form-row">
@@ -401,7 +426,7 @@
                       </div>
                     </div>
                     <button class="btn btn-outline-primary" type="submit" value="send">Send Message</button>
-                    <div id="my-form-status" class="col-md-9 mt-3"></div>
+		<!--<div id="my-form-status" class="col-md-9 mt-3"></div> -->
                     
                   </form>
                   
@@ -424,9 +449,6 @@
                    
                   </ul>
                 <div class="content d-flex justify-content-between flex-column ">
-                    <a href="index.html" class="logo ">
-                    <img src="assets/img/logo.png" alt="Logo">
-                </a>
                     <p class="text-justify">If you like what I've built here below my contact details, And let's talk about your inquiry.</p>
 
                 <!-- <p><i class="icon-spacing fas fa-phone-alt"></i>Call directy at: 091234567890</p> -->
@@ -438,7 +460,7 @@
                     <i class="icon-spacing fab fa-github"></i>&nbsp;Dexter Mas</a>
                 <a class="text-dark" href="https://linkedin.com/in/dexter-mas" target="_blank">
                     <i class="icon-spacing fab fa-linkedin-in"></i>&nbsp; Dexter Mas</a>
-                <div class="content mt-3">
+                <div class="content mt-5">
                     <a class="text-dark" href="index.html" title="Dexter">&copy; 2021 | Dexter Mas</a>
                 </div>
                 
@@ -454,132 +476,12 @@
 <!-- <a href="#top" class="back-to-top"><i class="fas fa-arrow-up"></i></a> -->
 
 
-<!-- <div id="download-button"></div>
-
-<script>
-  function detectOs() {
-    const userAgent = navigator.userAgent;
-    if (userAgent.indexOf('Win') !== -1) {
-      showDownloadButton('Download for Windows');
-    } else if (userAgent.indexOf('Mac') !== -1) {
-      showDownloadButton('Download for Mac');
-    } else {
-      showDownloadButton('Download', true);
-    }
-  }
-
-  function showDownloadButton(text, disabled = false) {
-    const downloadButton = document.createElement('button');
-    downloadButton.textContent = text;
-    downloadButton.disabled = disabled;
-    document.getElementById('download-button').appendChild(downloadButton);
-  }
-
-  detectOs();
-</script> -->
-
-
-<!-- 2nd -->
-<!-- <div>
-  <button id="download-button">Download</button>
-  <select id="os-select">
-    <option value="windows">Windows</option>
-    <option value="mac">Mac</option>
-    <option value="linux">Linux</option>
-  </select>
-</div>
-
-<script>
-  function detectOs() {
-    const userAgent = navigator.userAgent;
-    if (userAgent.indexOf('Win') !== -1) {
-      setDownloadButton('Download for Windows');
-    } else if (userAgent.indexOf('Mac') !== -1) {
-      setDownloadButton('Download for Mac');
-    } else {
-      setDownloadButton('Download', true);
-    }
-  }
-
-  function setDownloadButton(text, disabled = false) {
-    const downloadButton = document.getElementById('download-button');
-    downloadButton.textContent = text;
-    downloadButton.disabled = disabled;
-  }
-
-  function handleOsChange() {
-    const osSelect = document.getElementById('os-select');
-    const os = osSelect.value;
-    if (os === 'windows') {
-      setDownloadButton('Download for Windows');
-    } else if (os === 'mac') {
-      setDownloadButton('Download for Mac');
-    } else if (os === 'linux') {
-      setDownloadButton('Download for Linux');
-    }
-  }
-
-  detectOs();
-  document.getElementById('os-select').addEventListener('change', handleOsChange);
-</script> -->
-
-<!-- 2nd end -->
-
-<!-- 3rd -->
-<!-- <div style="padding-block: 5rem;">
-  <a id="download-button" href="#">Download</a>
-  <select id="os-select">
-    <option value="windows">Windows</option>
-    <option value="mac">Mac</option>
-    <option value="linux">Linux</option>
-  </select>
-</div>
-
-<script>
-  function detectOs() {
-    const userAgent = navigator.userAgent;
-    if (userAgent.indexOf('Win') !== -1) {
-      setDownloadButton('Download for Windows', 'https://example.com/download/windows');
-    } else if (userAgent.indexOf('Mac') !== -1) {
-      setDownloadButton('Download for Mac', 'https://example.com/download/mac');
-    } else {
-      setDownloadButton('Download', 'https://example.com/download');
-    }
-  }
-
-  function setDownloadButton(text, href) {
-    const downloadButton = document.getElementById('download-button');
-    downloadButton.textContent = text;
-    downloadButton.href = href;
-  }
-
-  function handleOsChange() {
-    const osSelect = document.getElementById('os-select');
-    const os = osSelect.value;
-    if (os === 'windows') {
-      setDownloadButton('Download for Windows', 'https://example.com/download/windows');
-    } else if (os === 'mac') {
-      setDownloadButton('Download for Mac', 'https://example.com/download/mac');
-    } else if (os === 'linux') {
-      setDownloadButton('Download for Linux', 'https://example.com/download/linux');
-    }
-  }
-
-  detectOs();
-  document.getElementById('os-select').addEventListener('change', handleOsChange);
-</script> -->
-
-<!-- 3rd end -->
-
-
-
-
 <!-- contact section end -->
 
 
     <!-- jquery cdn link -->
 
-    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     
 
     <!-- bootstrap cdn link  -->
@@ -622,6 +524,3 @@
 	
 </body>
 </html>
-
-
-kennyyiipcoding.com
