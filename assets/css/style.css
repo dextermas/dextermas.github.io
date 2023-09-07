@@ -39,16 +39,56 @@ section#about, section.project, section.resources {
     padding: 1rem 0;
 
 }
-
-
+.navbar-nav {
+    gap: 1rem;
+}
+.navbar {
+    padding: 1.5rem 1rem;
+}
 
 #active{
     color: var(--primary);
     font-weight: bold;
 }
+nav .container ul li.active, nav-link-color {
+background-color: #3b49df;
+border-radius:30px;
+transition: 0.3s;
+}
+nav .container ul li.active a {
+color: #ffffff;
+}
 
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+/*.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     color:var(--primary);
+}*/
+
+/*new added nav bottom effect*/
+header .nav-item {
+    position: relative;
+}
+header .nav-item:hover .nav-link:after,header .nav-item #active:after {
+    transform: scaleX(1);
+    transform-origin: left center;
+}
+header .nav-link:after,header #active:after {
+    content: ' ';
+    position: absolute;
+    background: linear-gradient(to right, #60ffec, #ffa560) fixed !important;
+    top: 100%;
+    margin-top: 4px;
+    border-radius: 3px;
+    left: 0%;
+    width: 100%;
+    height: 3px;
+    transform: scaleX(0);
+    transition: transform 0.2s;
+    transform-origin: right center;
+    box-sizing: border-box;
+    display: block;
+}
+header .nav-link:after,header #active:after {
+    background: var(--primary) !important;
 }
 
 header .logo img {
@@ -73,10 +113,10 @@ header.navbar-bg-color {
 }
 
 
-.home{
+.home {
     background-color: var(--background-color);
     overflow: hidden;
-    padding-bottom: 5rem;
+    padding-block: 3rem;
 }
 
 .home div.content h1{
@@ -89,17 +129,15 @@ header.navbar-bg-color {
 }
 
 
-.home .content .btn-outline-primary {
+.btn-outline-primary {
     background-color: var(--primary);
     border-color: var(--primary);
-    color: #000;
+    color: #ffffff;
     
 }
 
-.home .content .btn-outline-primary:hover {
-    color: #000;
-    background-color: rgb(29 230 100 / 30%);;
-    border-color: var(--primary);
+.btn-outline-primary:hover {
+    opacity: 0.8;
 }
 
 
@@ -154,7 +192,7 @@ header.navbar-bg-color {
     font-size: 1.7rem;
 }
 
-.experience #list-swd .exp-company{
+.experience #list-ax .exp-company, .experience #list-swd .exp-company{
     color: var(--primary);
 }
 .experience #list-profile .exp-company{
@@ -263,10 +301,6 @@ i.far.fa-envelope {
     border-color: var(--primary);
 }
 
-.contact {
-    background: #e9eef4;
-    padding-block: 2rem;
-}
 .contact .asa {
     padding-bottom: 3rem;
 }
@@ -373,4 +407,67 @@ section#resume div {
     .navbar-bg-color {
     padding-bottom: 4rem;
     }
+}
+
+
+
+
+
+.finished-projects span.percent-value::before {
+    content: '+';
+}
+.finished-projects span.percent-value::after {
+    content: 'K';
+}
+
+
+.dnxte-tstimonial-item-prfle {
+    flex-direction: column;
+}
+
+
+.testimonial-section .stm_testimonials_style_15 .owl-controls .owl-nav .owl-next:hover:before, .testimonial-section .stm_testimonials_style_15 .owl-controls .owl-nav .owl-prev:hover:before {
+    color: #ffffff;
+}
+.testimonial-section .dnxte_testimonial_parent_0 .swiper-button-prev:hover, .testimonial-section .dnxte_testimonial_parent_0 .swiper-button-next:hover {
+    color: #ffffff !important;
+    background-color: #f47957 !important;
+    border-color: #f47957 !important;
+}
+
+.testimonial-sectio .dnxte-tstimonial-prfle-review img {
+    border: 8px solid #ffffff;
+    border-radius: 50%;
+}
+
+
+.custom-button-transition {
+    transition: all 0.25s ease;
+}
+.custom-button-transition:hover {
+    transform: translateY(-10px);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+.header__sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    transition: background-color 0.3s ease-in-out;
+}
+
+not yet inserted
+.custom-mobile-header .et_pb_column {
+    margin-bottom: 0;
+}
+.custom-mobile-header .et_pb_column .et_pb_image .et_pb_image_wrap {
+    float: left;
+}
+.et_pb_menu--style-centered .et_pb_menu__wrap {
+    -webkit-box-pack: flex-end;
+    -ms-flex-pack: flex-end;
+    justify-content: flex-end;
 }
