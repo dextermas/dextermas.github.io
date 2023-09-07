@@ -137,7 +137,8 @@ header.navbar-bg-color {
 }
 
 .btn-outline-primary:hover {
-    opacity: 0.8;
+    background-color: #44d17f;
+    border-color: #44d17f;
 }
 
 
@@ -157,7 +158,7 @@ header.navbar-bg-color {
     box-shadow: 0 0 0 0.2rem rgb(49 224 127 / 22%);
 }
 
-#list-swd-list, #list-ax-list, #list-profile-list{
+#list-swd-list, #list-ax-list, #list-tito-list, #list-jerico-list{
     border-color: transparent;
     border-left-color: var(--primary);
     border-left: .3rem solid;
@@ -192,7 +193,8 @@ header.navbar-bg-color {
     font-size: 1.7rem;
 }
 
-.experience #list-ax .exp-company, .experience #list-swd .exp-company{
+/*.experience #list-ax .exp-company, .experience #list-swd .exp-company {*/
+.exp-company {
     color: var(--primary);
 }
 .experience #list-profile .exp-company{
@@ -234,14 +236,14 @@ header.navbar-bg-color {
     line-height: 2;
 }
 
-.direct-link{
+/*.direct-link{
     color: #000;
     font-size: 1rem;  
 }
 
 .direct-link:hover{
     color: var(--primary);
-}
+}*/
 
 
 
@@ -268,6 +270,9 @@ i.far.fa-envelope {
     padding-right: 1rem;
 }
 
+.contact .logo img {
+    width: 200px;
+}
 
 .contact form {
     padding: 1rem;
@@ -288,17 +293,6 @@ i.far.fa-envelope {
 
 .contact .form-control:focus {
     box-shadow: 0 0 0 0.2rem rgb(49 224 127 / 22%);
-}
-
-.btn-outline-primary {
-    color: #000;
-    border-color: var(--primary);
-}
-
-.btn-outline-primary:hover {
-    color: #000;
-    background-color:rgb(29 230 100 / 30%);
-    border-color: var(--primary);
 }
 
 .contact .asa {
