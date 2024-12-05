@@ -465,3 +465,15 @@ not yet inserted
     -ms-flex-pack: flex-end;
     justify-content: flex-end;
 }
+section.footer {
+    padding: 20px;
+    background: #0D0D0D;
+}
+section.footer .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section.footer .row span, section.footer .row span a {
+    color: #ffffff !important;
+}
