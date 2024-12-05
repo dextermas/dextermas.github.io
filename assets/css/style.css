@@ -30,7 +30,7 @@ html, body{
     scroll-behavior: smooth;
 }
 
-section#about, section.project, section.resources {
+section#about, section.project, section.resources, section.contact {
     padding: 4rem 0;
 }
 
