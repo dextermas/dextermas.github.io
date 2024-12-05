@@ -411,6 +411,9 @@ section#resume div {
     .navbar-nav {
     display: inline-block;
     }
+    .nav-link {
+    padding: 0.5rem 1rem 0;
+    }
 }
 
 
