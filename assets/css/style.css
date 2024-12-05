@@ -401,6 +401,16 @@ section#resume div {
     .navbar-bg-color {
     padding-bottom: 4rem;
     }
+
+    .navbar-collapse {
+    align-items: center;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    }
+    .navbar-nav {
+    display: inline-block;
+    }
 }
 
 
